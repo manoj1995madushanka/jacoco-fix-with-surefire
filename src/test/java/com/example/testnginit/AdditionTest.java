@@ -1,7 +1,7 @@
 package com.example.testnginit;
 
 
-import mockit.Capturing;
+//import mockit.Capturing;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.testng.annotations.Test;
@@ -13,8 +13,8 @@ public class AdditionTest extends BaseManagerTest {
     @Autowired
     private  Addition addition;
 
-    @Capturing
-    private AddService addService;
+   /* @Capturing
+    private AddService addService;*/
 
 
     @Test

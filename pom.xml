@@ -22,8 +22,6 @@
         <jmockit.version>1.49</jmockit.version>
         <test.includes>**/*Test.java</test.includes>
         <test.excludes>**/*IT*.java</test.excludes>
-        <embedded.redis>0.7.3</embedded.redis>
-        <javafaker.version>1.0.2</javafaker.version>
         <surefire-testng.version>3.2.2</surefire-testng.version>
 
         <maven.compiler.version>3.11.0</maven.compiler.version>
